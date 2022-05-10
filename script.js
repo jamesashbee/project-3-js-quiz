@@ -41,7 +41,7 @@ const nextQuestion = () => {
   if (questionCount >= quizAnswersArr.length) {
     questionText.innerHTML = "Well Done You Have Completed the Quiz";
     quizImageSource.src =  "/img/winner.jpg";
-    scoreboard.innerHTML = "Quiz Champion You Got all " +(questionCount +1) +" Questions Right!";
+    scoreboard.innerHTML = "Quiz Champion You Got all " +(questionCount) +" Questions Right!";
     startQuiz = false;   
   }
 
