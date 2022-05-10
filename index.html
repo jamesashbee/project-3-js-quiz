@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>James Ashbee | JS Quiz</title>
+  <script src="./script.js"  async defer></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Permanent+Marker&family=Roboto&family=Zen+Loop&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <header>
+    <div id="score">
+        <span id="user__score">Scoreboard</span>
+    </div>
+  </header>
+
+  <main class="quiz" id="quizBackGround">
+    
+    <section class="quiz__container">
+        
+        <div class="quiz__question">
+            <h2 class="quiz__question-header">Question Title</h2>
+        </div>
+
+        <div class="quiz__imgContainer">
+          <img id="quiz__img" src="/img/quiz.jpg" alt="Quiz">
+        </div>
+
+        <div class="quiz__answers">
+            <button class="quiz__answer" id=0>A</button>  
+            <button class="quiz__answer" id=1>B</button> 
+            <button class="quiz__answer" id=2>C</button>  
+            <button class="quiz__answer" id=3>D</button>  
+        </div>
+
+    </section>
+  </main>
+
+
+<footer class="footer">
+  <button id="resetBtn">Reset Quiz</button>
+  <button id="startBtn">Start Quiz</button>  
+</footer>
+  
+</body>
+</html>
