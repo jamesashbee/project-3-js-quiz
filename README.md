@@ -56,3 +56,19 @@ quiz game, created with js, html and css
     Display on Scoreboard that Reset has been pressed
     Show Quiz Start Image
     Hide the Reset Button and Show the Start Button
+
+
+@ V1 Fixes Needed
+More Questions + Graphics
+
+Start and Reset Button in Same Location (bottom Right)
+
+
+@ V2
+Have Next Question Button - Lock in Answer and Highlight Red or Green if Correct
+
+Better way to show images on Mobile
+
+@V3
+Question Categories
+Multi Player
