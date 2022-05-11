@@ -7,7 +7,7 @@ let startQuiz = false;    // only when true will it loop to next question
 
 // score board 
 const scoreboard = document.querySelector("#user__score");
-scoreboard.innerHTML = "Are you good enought to get on the Scoreboard?";
+scoreboard.innerHTML = "Are you good enougth to get on the Scoreboard?";
 
 // question header 
 const questionText = document.querySelector(".quiz__question-header");
