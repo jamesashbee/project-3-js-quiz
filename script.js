@@ -40,7 +40,7 @@ const nextQuestion = () => {
   // if sucessfully completed last question
   if (questionCount >= quizAnswersArr.length) {
     questionText.innerHTML = "Well Done You Have Completed the Quiz";
-    quizImageSource.src =  "/img/winner.jpg";
+    quizImageSource.src =  "img/winner.jpg";
     scoreboard.innerHTML = "Quiz Champion You Got all " +(questionCount) +" Questions Right!";
     startQuiz = false;   
   }
