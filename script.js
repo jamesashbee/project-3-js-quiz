@@ -100,7 +100,7 @@ const resetQuiz = () => {
   };
 
   // image to blank
-  quizImageSource.src = "/img/quiz.jpg";
+  quizImageSource.src = "img/quiz.jpg";
 
   startQuiz = false;
 
